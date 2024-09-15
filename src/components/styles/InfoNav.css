@@ -1,0 +1,115 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.info-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #121212;
+  color: #ffffff;
+}
+.navbar {
+  justify-content: space-between;
+}
+
+/* Contact info */
+.contact-info {
+  font-size: 14px;
+}
+
+.contact-info a {
+  color: #ffc107;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Social icons styling */
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-left: 15px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1); /* Slight hover zoom effect */
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Language selector styling */
+.language-selector {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  background-color: #1f1f1f;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.language-selector img {
+  width: 24px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.language-selector select {
+  padding: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.language-selector select:hover {
+  background-color: #333333;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .info-nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .contact-info,
+  .social-icons,
+  .language-selector {
+      margin-bottom: 10px;
+     
+  }
+  .social-icons {
+    display: none;
+  }
+  .language-selector {
+    display: none;
+  }
+  .selector {
+    display: none;
+  }
+}
+
+@media (max-width: 568px) {
+  .social-icons {
+      display: none; 
+  }
+  .social-icons {
+    display: none;
+
+  }
+}

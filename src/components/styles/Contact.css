@@ -1,0 +1,67 @@
+/* General page styling */
+.contact-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-page h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Grid layout for contact cards */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Contact card styling */
+.contact-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+}
+
+.contact-card h3 {
+    font-size: 18px;
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+
+.contact-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 8px 0;
+}
+
+.contact-card a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .contact-page {
+        padding: 10px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-card {
+        max-width: 100%;
+    }
+}

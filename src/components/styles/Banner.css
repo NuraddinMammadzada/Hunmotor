@@ -1,0 +1,100 @@
+/* General styling for the banner */
+.banner {
+    position: relative;
+    background-image: url('https://d1k7ad08k3erkk.cloudfront.net/wp-content/uploads/2023/01/Aluminum-Car-Parts-Manufacturer.png?x10543'); /* Background image or color */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  /* Styling for the banner content */
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the button in the banner */
+  .banner-button {
+    background-color: #00a99d; /* Custom color for the button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-button:hover {
+    background-color: #008b7f; /* Darker color on hover */
+  }
+  
+  /* Styling for the language dropdown */
+  .language-selector {
+    margin-top: 20px;
+  }
+  
+  .language-selector select {
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .banner {
+      height: 150px;
+      padding: 15px;
+    }
+  
+    .banner-text {
+      font-size: 18px;
+    }
+  
+    .banner-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .language-selector select {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      height: 120px;
+      padding: 10px;
+    }
+  
+    .banner-text {
+      font-size: 16px;
+    }
+  
+    .banner-button {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  
+    .language-selector select {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,47 @@
+.bg-map {
+    height: 300px; /* Adjust height as per your requirement */
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .line-bg-map {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Adjust this value as needed */
+    align-items: center;
+  }
+  
+  .card-bg-map {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-bg-map img {
+    width: 100px; /* Adjust the size based on your design */
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .line-bg-map {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .card-bg-map {
+      margin-bottom: 20px;
+    }
+  }
+  
